@@ -1,0 +1,301 @@
+body {
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+font-family: 'Ubuntu', sans-serif;
+padding: 0;
+margin: 0;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 900;
+}
+
+
+
+p {
+	line-height: 1.66em;
+}
+
+
+p, a button, div, input, img, span {
+	box-sizing: border-box;
+}
+
+
+
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+
+}
+
+
+.header {
+	background: #4EBEFE;
+	background: -moz-linear-gradient(45deg, #4EBEFE 0%, #42A7EB 50%, #378fd9 100%);
+	background: -webkit-linear-gradient(45deg, #4EBEFE 0%, #42A7EB 50%, #378fd9 100%);
+	background: linear-gradient(45deg, #4EBEFE 0%, #42A7EB 50%, #378fd9 100%);
+	padding-top: 63px;
+	color: #fff;
+	
+
+}
+
+
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.offer {
+	/*margin-top: 150px;*/
+	width: 558px;
+}
+
+.intro {
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 49px;
+	width: 395px;
+}
+
+.title {
+	font-size: 37px;
+	padding-top: 150px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: black;
+	padding: 15px 0;
+	width: 220px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	margin-top: 45px;
+	margin-bottom: 215px;
+	transition: all 1.2s ease;
+}
+
+.btn:hover {
+	background: #e7bb0d;
+	color: #ede2b5;
+    
+}
+
+
+.desktop {
+	width: 800px;
+	margin-top: 15px;
+	
+}
+
+/*  <!-----------------------------
+                 block1 Домашка 
+    ------------------------------>
+*/
+.block1 {
+	padding-top: 110px;
+	padding-bottom: 118px;
+}
+
+
+.middle {
+   text-align: center;
+   font-family: 'Ubuntu', sans-serif;
+   margin-bottom: 80px;
+   font-size: 30px;
+
+}
+
+
+.times {
+	display: flex;
+	justify-content: space-between;
+	/*margin-left: 150px;*/
+	font-family: 'Ubuntu', sans-serif;
+	 text-align: center;
+	/*width: 302px;*/
+	
+}
+.icon {
+	margin-bottom: 25px;
+}
+ 
+
+.text-section3 {
+	width: 295px;
+}
+
+.text-section2 {
+	width: 260px;
+}
+
+.text-section {
+	width: 290px;
+}
+
+
+.time {
+	align-items: flex-end;
+}
+
+.icon1 {
+	margin-bottom: 25px;
+	padding-top: 10px;
+
+}
+
+.titleh3 {
+	font-size: 19px;
+
+}
+
+
+.text-section {
+	font-size: 15px;
+}
+/* <!----------------------------
+              block2 Домашка 
+    ----------------------------->*/
+
+
+
+.block2 {
+	padding-top: 108px;
+	background:#ecf3f8;
+	text-align: center;
+	padding-bottom: 30px;
+
+	
+}
+
+.midle2 {
+	margin-bottom: 65px;
+}
+
+
+.input {
+	width: 343px;
+	padding: 19px 19px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.btn2 {
+
+	margin: 0 auto;
+	text-align: center;
+	width: 346px;
+	margin-top: 15px;
+    margin-bottom: 108px;
+
+}
+
+/* <!----------------------------
+              footer Домашка 
+    ----------------------------->*/
+
+
+.footer {
+		background: #164d7a;
+		padding: 50px 0px 50px 0px;
+		text-align: center;
+		color: #fff;
+		font-size: 14px;
+		font-family: 'Open Sans', sans-serif;
+}
+
+/*ДІАПАЗОНИ */
+
+.red {
+	color: red;
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.container{
+		width: 960px;
+	}
+
+	h1, p {
+		width:auto;
+	}
+
+	.intro {
+		width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width: 992px) {
+	.container{
+		width: 720px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.desktop {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+    .times{
+    	flex-direction: column;
+    }
+    .time {
+    	margin: 0 auto;
+    }
+    	
+
+}	
+
+
+@media screen and (max-width: 768px) {
+	.container{
+		width: 540px;
+	}
+	.desktop{
+		width: 100%;
+		
+	}
+	.btm{
+		margin-left: 0;
+	}
+	h1 {
+		width: 100%;
+	}
+
+	.offer {
+		width: 100%;
+	}
+	
+
+	
+
+}
+@media screen and (max-width: 576px) {
+	.container{
+		width: 90%;
+	}
+	form {
+		width: 100%;
+	}
+
+}
